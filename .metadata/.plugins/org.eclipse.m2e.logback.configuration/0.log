@@ -13,3 +13,6 @@
 2018-12-13 15:51:02,632 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-12-13 15:51:02,632 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Framework\Selenium.Generic.Framework\src\test\resources
 2018-12-13 15:51:22,936 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 15:51:22,936 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Framework\Selenium.Generic.Framework\src\main\resources
+2018-12-13 15:51:22,954 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 15:51:22,954 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Selenium_Framework\Selenium.Generic.Framework\src\test\resources

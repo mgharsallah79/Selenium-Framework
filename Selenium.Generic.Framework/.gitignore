@@ -1,0 +1,9 @@
+/target/
+/TestReport/
+/TestsScreenshots/
+/test-output/
+.classpath/
+.project/
+.settings/
+./.metadata/
+./.recommenders/
