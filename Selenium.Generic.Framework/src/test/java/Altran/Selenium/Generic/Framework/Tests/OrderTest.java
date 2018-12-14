@@ -5,6 +5,7 @@ import java.net.MalformedURLException;
 import java.util.List;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -15,7 +16,7 @@ public class OrderTest extends BaseTest{
 
     private OrderPage store;
 
-    @BeforeTest
+    @BeforeMethod
     public void setUp() throws MalformedURLException {
         super.setUp();
         store = new OrderPage(driver);

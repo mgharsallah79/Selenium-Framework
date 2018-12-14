@@ -3,6 +3,8 @@ package Altran.Selenium.Generic.Framework.Tests;
 import java.net.MalformedURLException;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -13,7 +15,7 @@ public class SearchTest extends BaseTest {
 
     private SearchPage google;
 
-    @BeforeTest
+    @BeforeMethod
     public void setUp() throws MalformedURLException {
         super.setUp();
         google = new SearchPage(driver);
